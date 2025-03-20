@@ -9,7 +9,7 @@ The laboratory exercises will all be written in Python (v3.6 or higher, with Vis
 - Open3D for the PointCloud/Mesh section
 
 In order to install a Python package, you need to use the `pip` package manager (`pip3` if you are using the `python3` command) with this command: `pip install *package_name*`. The names of the required packages are:
-- `opencv-python`
+- `opencv-python==4.9.0`
 - `opencv-contrib-python`
 - `numpy`
 - `open3d`
