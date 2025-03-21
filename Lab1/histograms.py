@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #GRAYSCALE
-img = cv2.imread('../material/home.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('../material/home.jpg', cv2.IMREAD_GRAYSCALE) # Even converting to grayscale, the image is still read as BGR
 assert img is not None, "file could not be read, check with os.path.exists()"
 cv2.imshow('img',img)
 cv2.waitKey(0)

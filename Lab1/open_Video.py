@@ -3,7 +3,8 @@ import cv2
 
 ## CAPTURE VIDEO FROM CAMERA
 
-cap = cv2.VideoCapture(0)   #cap = cv2.VideoCapture('Video.mp4')
+cap = cv2.VideoCapture(0)  
+#cap = cv2.VideoCapture('../material/Video.mp4')
 if not cap.isOpened():
     print("Cannot open camera")
     exit()
