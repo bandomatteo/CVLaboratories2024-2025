@@ -17,6 +17,8 @@ In order to install a Python package, you need to use the `pip` package manager 
 - `scikit-image`
 - `ipykernel`
 
+Installation instruction and testing -> https://docs.opencv.org/4.9.0/da/df6/tutorial_py_table_of_contents_setup.html
+
 ## Material
 
 The required material for the laboratories is contained in the `material` folder on the root of this repository. 
